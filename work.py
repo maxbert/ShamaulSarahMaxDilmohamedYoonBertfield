@@ -8,8 +8,8 @@ a', 'Edward', 'Jonathan', 'Celine', 'Daniel', 'Lindsey', 'Ziyan', 'Elina'],
 def randomizer(pd):
     roster = CLASSES[pd]
     n = len(roster)
-    return roster[randrange(0,n)]
+    print( roster[randrange(0,n)] )
 
-print( randomizer(4) )
-print( randomizer(8) )
-print( randomizer(9) )
+randomizer(4)
+randomizer(8)
+randomizer(9)
